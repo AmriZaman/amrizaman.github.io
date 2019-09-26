@@ -1,0 +1,43 @@
+body{
+    background-color: white; background-image: url(http://hdqwalls.com/wallpapers/morning-in-tokyo-sd.jpg);
+    color: white;
+}
+input[type=submit]{
+    background-color: #f1f1f1;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+select {
+    padding: 8px 32px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+h1{
+    color: white;
+    padding: 30px 30px;
+    border: auto;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Calibri';
+    text-align: center;
+}
+.Signin{
+  float: left; width: 40%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-left: 100px;
+}
+.Login{
+  float: left; width: 40%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-left: 100px;
+}
