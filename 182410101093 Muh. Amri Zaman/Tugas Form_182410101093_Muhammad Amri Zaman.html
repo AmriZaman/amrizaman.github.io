@@ -1,39 +1,51 @@
 	<head>
-		<title>Tugas PR PerWeb Forms</title>	
+		<title>Tugas PR PerWeb Forms</title>
+		<link rel="stylesheet" href="amri.css">
 	</head>
 	<body>
 		<fieldset>
-		<h1> Daftar Akun </h1>
-		<form>
-			<input type="text" name="Name" placeholder="Name" required>
-		</br> </br>
-			<input type="email" name="E-mail" placeholder="E-mail" required>
-		</br> </br>
-			<input type="text" name="Address" placeholder="Address">
-		</br> </br>
-			Date of Birth </br>
-			<input type="date" name="DoB">
-		</br> </br>
-			Religion </br>
-			<select name="Religion">
-				<option value="">Choose...</option>
-				<option value="Islam">Islam</option>
-				<option value="Hindu">Hindu</option>
-				<option value="Atheis">I am not believe god</option>
-				
-			</select>
-		</br> </br>
-			Gender </br>
-			<input type="radio" name="gender" value="male" checked> Male
-			<input type="radio" name="gender" value="female"> Female
-			<input type="radio" name="gender" value="other"> Other
-		</br> </br>
-			<input type="password" name="" placeholder="Password" required>
-		</br> </br>
-			<input type="password" name="" placeholder="Confirm Password" required>
-		</br> </br>
-			<input type="checkbox" name="syarat dan ketentuan" value="" required>I agree with the term and condition
-		<br>
-		</form>
-		<button type="submit" onclick="alert('Muhammad Amri Zaman (182410101093)')">SUBMIT</button>
+		<div class="Signin">
+			<h1> Daftar Akun </h1>
+			<form>
+					<input type="text" name="Name" placeholder="Name" required>
+				</br> </br>
+					<input type="email" name="E-mail" placeholder="E-mail" required>
+				</br> </br>
+					<input type="text" name="Address" placeholder="Address">
+				</br> </br>
+					Date of Birth </br>
+					<input type="date" name="DoB">
+				</br> </br>
+					Religion </br>
+					<select name="Religion">
+						<option value="" disabled>Choose...</option>
+						<option value="Islam">Islam</option>
+						<option value="Hindu">Hindu</option>
+						<option value="Atheis">Atheis</option>
+					</select>
+				</br> </br>
+					Gender </br>
+					<input type="radio" name="gender" value="male" checked> Male
+					<input type="radio" name="gender" value="female"> Female
+					<input type="radio" name="gender" value="other"> Other
+				</br> </br>
+					<input type="password" name="" placeholder="Password" required>
+				</br> </br>
+					<input type="password" name="" placeholder="Confirm Password" required>
+				</br> </br>
+					<input type="checkbox" name="syarat dan ketentuan" value="" required>I agree with the term and condition
+				<br>
+			</form>
+			<input type="submit" value="Sign In" onclick="alert('Muhammad Amri Zaman (182410101093)')">
+		</div>
+
+		<div class="Login">
+			<h1>Login</h1>
+			<form>
+					<input type="text" placeholder="E-mail"></input><br>
+					<br>
+					<input type="password" placeholder="Password"></input><br>
+			</form>
+			<input type="submit" value="Login" onclick="alert('Muhammad Amri Zaman (182410101093)')">
+		</div>
 	</body>
