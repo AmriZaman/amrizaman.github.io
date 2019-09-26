@@ -4,54 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TeamsForm</title>
+    <title>FORM</title>
+    <link rel="stylesheet" href="form.css">
 </head>
-<body background="https://lilar.com/wp-content/uploads/2016/10/Savin-NY-Website-Background-Web.jpg"></body>
 <body>
     <fieldset>
-        <legend>Fill for Registration</legend>
-        <p>
-                <label>Nama:</label>
-                <input type="text" name="nama" placeholder="Nama antum..." />
-            </p>
-            <p>
-                <label>Username:</label>
-                <input type="text" name="username" placeholder="Username antum" />
-            </p>
-            <p>
-                <label>Email:</label>
-                <input type="email" name="email" placeholder="email antum ..." />
-            </p>
-            <p>
-                <label>Password:</label>
-                <input type="password" name="password" placeholder="Passowrd antum ..." />
-            </p>
-            <p>
-                <label>Jenis kelamin:</label>
-                <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
-                <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
-            </p>
-            <p>
-                    <label>Apakah Anda Weaboo?</label>
-                    <label><input type="radio" name="Weaboo?" value="Yaa" /> Yaa</label>
-                    <label><input type="radio" name="Weaboo?" value="OGAHH" /> OGAHH</label>
-                </p>
-            <p>
-                <label>Agama:</label>
-                <select name="agama">
-                    <option value="islam">Islam</option>
-                    <option value="kristen">Kristen</option>
-                    <option value="hindu">Hindu</option>
-                    <option value="budha">Budha</option>
-                </select>
-            </p>
-                    <p>Kemampuan Bahasa Pemrogaman ?</p>
-                    <p><input type='checkbox' name='bahasa1' value='PHP' />PHP  </p>
-                    <p><input type='checkbox' name='bahasa2' value='HTML' />HTML</p>
-                    <p><input type='checkbox' name='bahasa3' value='Java Script' />Java Script</p>
-            <p>
-                <input type="submit" name="submit" value="SUBMIT HERE" />
-            </p>
+        <h1>CREATED BY : DADAR CHAN</h1>
+        <h1>182410101082</h1>
+    <div class="Registrasi">
+        <form>
+            <h1>REGISTER HERE</h1>
+            <label>Nama :</label><br>
+            <input type="text" placeholder="Masukkan Nama"></input><br> 
+            <label>NIM :</label><br>
+            <input type="text" placeholder="Masukkan NIM"></input><br>
+            <label>Email :</label><br>
+            <input type="email" placeholder="Masukkan Email"></input><br>
+            <label>Password :</label><br>
+            <input type="password" placeholder="Masukkan Password"></input><br>
+            <label>Tanggal Lahir :</label><br>
+            <input type="date"></input><br>
+            <label>Jenis Kelamin</label><br>
+            <input type="radio" name="Jenis Kelamin" value="Laki-laki">Laki-laki</input>
+            <input type="radio" name="Jenis Kelamin" value="Perempuan">Perempuan</input><br>
+            <label>Bahasa Yang dikuasai</label><br>
+            <input type="checkbox" name="Bahasa1" value="HTML">HTML</input><br>
+            <input type="checkbox" name="Bahasa2" value="CSS">CSS</input><br>
+            <input type="checkbox" name="Bahasa3" value="JAVASCRIPT">JAVASCRIPT</input><br>
+            <select name="Agama">
+                <option disabled>---CHOOSHE RELIGION---</option>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="konghucu">konghucu</option>
+            </select><br>
+            <input type="submit" value="REGISTER">
+        </form>
+    </div>
+    <div class="LOGIN">
+        <h1>LOGIN HERE</h1>
+        <form>
+            <label>Username :</label><br>
+            <input type="text" placeholder="Masukkan Nama"></input><br> 
+            <label>Password :</label><br>
+            <input type="password" placeholder="Password"></input><br>
+            <input type="submit" value="LOGIN">
+        </form>
+    </div>
     </fieldset>
 </body>
 </html>
