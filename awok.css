@@ -12,8 +12,10 @@
 
   /* Style the top navigation bar */
   .topnav {
-    overflow: hidden;
+    width: 100%;
     background-color: #333;
+    position: fixed;
+    z-index: 1000; 
   }
 
   /* Style the topnav links */
