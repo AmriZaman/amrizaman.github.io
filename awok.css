@@ -129,7 +129,7 @@
 }
 .Transportationtext{
   top: 127%;
-  left: 67%;
+  left: 66.5%;
   position: absolute;
   transform: translate(-50%,-50%);
   color:white;
@@ -148,14 +148,14 @@
   height: auto;
 }
 .subbab{
-  padding: 50px 10px 10px 70px;
+  padding: 50px 10px 10px 10.1%;
 }
 .tokyoevent1 img{
   float: left;
   width: 387px;
   height: 250px;
   object-fit: cover;
-  padding: 10px 10px 50px 70px;
+  padding: 10px 10px 50px 10.1%;
 }
 .tokyoevent2 img{
   float: left;
@@ -172,8 +172,8 @@
   padding: 10px 10px 50px 10px;
 }
 .eventtext1{
-  top: 1900px;
-  left: 255px;
+  top: 245%;
+  left: 22.8%;
   right: 40%;
   position: absolute;
   transform: translate(-50%,-50%);
@@ -184,8 +184,8 @@
   text-align: center;
 }
 .eventtext2{
-  top: 1900px;
-  left: 670px;
+  top: 245%;
+  left: 50%;
   position: absolute;
   transform: translate(-50%,-50%);
   color:black;
@@ -195,11 +195,11 @@
   text-align: center;
 }
 .eventtext3{
-  top: 1845px;
-  left: 980px;
+  top: 245%;
+  left: 76.8%;
   position: absolute;
   float: left;
-  transform: translate(-20%,-20%);
+  transform: translate(-50%,-50%);
   color:black;
   font-family: 'Lucida Sans';
   max-width: 100%;
@@ -207,12 +207,12 @@
   text-align: center;
 }
 .subbab2{
-  padding: 485px 10px 10px 70px;
+  padding: 32% 10px 10px 10.1%;
 }
 .instagram{
   float: left;
   object-fit: cover;
-  padding: 10px 5px 10px 70px;
+  padding: 10px 5px 10px 10.1%;
 }
 .contentimage img{
   padding: 50px 1000px 10px 160px;
