@@ -99,7 +99,7 @@
  }
  .Placetovisit img{
    float: left;
-   padding: 50px 10px 50px 60px;
+   padding: 50px 10px 50px 9.5%;
    width: 700px;
    height: 620px;
  }
@@ -116,8 +116,8 @@
   height: 300px;
 }
 .Placetovisittext{
-  top: 1300px;
-  left: 180px;
+  top: 170%;
+  left: 18%;
   position: absolute;
   transform: translate(-50%,-50%);
   color:white;
@@ -126,8 +126,8 @@
   height: auto;
 }
 .Transportationtext{
-  top: 1000px;
-  left: 900px;
+  top: 127%;
+  left: 67%;
   position: absolute;
   transform: translate(-50%,-50%);
   color:white;
@@ -136,8 +136,8 @@
   height: auto;
 }
 .Foodtext{
-  top: 1300px;
-  left: 910px;
+  top: 170%;
+  left: 67%;
   position: absolute;
   transform: translate(-50%,-50%);
   color:white;
