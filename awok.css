@@ -1,16 +1,11 @@
-
   body {
     margin: 0;
   }
-
-  /* Style the header */
   .header {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
   }
-
-  /* Style the top navigation bar */
   .topnav {
     padding: 0;
     margin: 0;
@@ -20,8 +15,6 @@
     position: fixed;
     z-index: 3000;
   }
-
-  /* Style the topnav links */
   .topnav a {
     float: left;
     display: block;
@@ -30,8 +23,6 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-
-  /* Change color on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
@@ -85,134 +76,127 @@
      border-right: 10px solid;
    }
  }
-
  .Abstrak1{
    text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 30px;
-   padding: 50px 250px 15px 250px;
+   padding: 3% 15% 1% 15%;
  }
  .Abstrak2{
    text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 20px;
    font-style: italic;
-   padding: 0px 250px 15px 250px;
+   padding: 0% 15% 3% 15%;
  }
  .Placetovisit img{
    float: left;
-   padding: 50px 10px 50px 9.5%;
+   padding: 3% 0.5% 5% 9.5%;
    width: 700px;
-   height: 620px;
+   height: 615px;
+   object-fit: cover;
  }
  .Transportation img{
-  float: left;
-  padding: 50px 0px 0px 10px;
-  width: 500px;
+  float: right;
+  padding: 3% 9.5% 0.5% 0.5%;
+  width: 510px;
   height: 300px;
+  object-fit: cover;
 }
 .Food img{
-  float: left;
-  padding: 20px 0px 0px 10px;
-  width: 500px;
+  float: right;
+  padding: 0.5% 9.5% 5% 0.5%;
+  width: 510px;
   height: 300px;
+  object-fit: cover;
 }
 .Placetovisittext{
-  top: 170%;
-  left: 18%;
+  top: 167%;
+  left: 12%;
   position: absolute;
-  transform: translate(-50%,-50%);
   color:white;
   font-family: 'Lucida Sans';
   max-width: 100%;
-  height: auto;
 }
 .Transportationtext{
-  top: 127%;
-  left: 66.5%;
+  top: 125%;
+  left: 60%;
   position: absolute;
-  transform: translate(-50%,-50%);
   color:white;
   font-family: 'Lucida Sans';
   max-width: 100%;
-  height: auto;
 }
 .Foodtext{
-  top: 170%;
-  left: 67%;
+  top: 167%;
+  left: 60%;
   position: absolute;
-  transform: translate(-50%,-50%);
   color:white;
   font-family: 'Lucida Sans';
   max-width: 100%;
-  height: auto;
 }
 .subbab{
-  padding: 50px 10px 10px 10.1%;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
 }
 .tokyoevent1 img{
   float: left;
   width: 387px;
   height: 250px;
   object-fit: cover;
-  padding: 10px 10px 50px 10.1%;
+  padding: 1% 0.5% 5% 10.5%;
 }
 .tokyoevent2 img{
   float: left;
   width: 387px;
   height: 250px;
   object-fit: cover;
-  padding: 10px 10px 50px 10px;
+  padding: 1% 0.5% 5% 0.8%;
 }
 .tokyoevent3 img{
-  float: left;
+  float: right;
   width: 387px;
   height: 250px;
   object-fit: cover;
-  padding: 10px 10px 50px 10px;
+  padding: 1% 10.5% 5% 0%;
 }
 .eventtext1{
-  top: 245%;
-  left: 22.8%;
-  right: 40%;
+  float: left;
+  padding: 18% 5% 5% 19%;
   position: absolute;
-  transform: translate(-50%,-50%);
   color:black;
   font-family: 'Lucida Sans';
   max-width: 100%;
-  height: auto;
   text-align: center;
 }
 .eventtext2{
-  top: 245%;
-  left: 50%;
+  float: left;
+  padding: 18% 5% 5% 44%;
   position: absolute;
-  transform: translate(-50%,-50%);
   color:black;
   font-family: 'Lucida Sans';
   max-width: 100%;
-  height: auto;
   text-align: center;
 }
 .eventtext3{
-  top: 245%;
-  left: 76.8%;
-  position: absolute;
   float: left;
-  transform: translate(-50%,-50%);
+  padding: 18% 5% 5% 72%;
+  position: absolute;
   color:black;
   font-family: 'Lucida Sans';
   max-width: 100%;
-  height: auto;
   text-align: center;
 }
 .subbab2{
-  padding: 32% 10px 10px 10.1%;
+  padding: 26% 10.5% 0.5% 10.5%;
 }
 .instagram{
   float: left;
+  padding: 0.5% 0.5% 3% 10.5%;
+}
+.instagram img{
   object-fit: cover;
-  padding: 10px 5px 10px 10.1%;
+  width: 196.5px;
+  height: 200px;
 }
 .contentimage img{
   padding: 50px 1000px 10px 160px;
