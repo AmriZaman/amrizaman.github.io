@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="awok.css"
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jsnya.js"></script>
     <meta charset="utf-8">
     <title>Place To Visit</title>
   </head>
   <body>
-    <div class="topnav">
-        <a href="index.html">Visit Tokyo</a>
-        <a href="index.html">Home</a>
-        <a href="placetovisit.html">Place</a>
-        <a href="#">Food</a>
-        <a href="#">Transportation</a>
-        <a href="#">Events</a>
-    </div>
+    <nav>
+      <a href="index.html" class="title">Visit Tokyo</a>
+      <a href="index.html" class="title" id="login">Login</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="placetovisit.html" id="active">Place to Visit</a></li>
+        <li><a href="foods.html">Food</a></li>
+        <li><a href="Transportation.html">Transportation</a></li>
+        <li><a href="Events.html">Events</a></li>
+      </ul>
+      <a href="javascript:void(0);" onclick="navigasi()"><div class="burger-menu"></div></a>
+    </nav>
     <div class="headerimage">
       <img src="https://himasif.in/10d"/>
       <div class="heading1">
@@ -21,78 +26,67 @@
       </div>
     </div>
     <div class="Abstrak1">
-      KUNJUNGI SEMUANYA DAN BERSENANG SENANGLAH
+        COME AND ENJOY EVERYTHING
     </div>
     <div class="Abstrak2">
-      Ada banyak sekali tempat menarik di Tokyo
-      Jika Anda berkunjung ke tokyo
-      Anda harus datang dan mengunjungi tempat tempat ini
-      Lihat dan nikmatilah
+        There are lots of interesting places in Tokyo.
+        If you visit Tokyo, you should come and visit these places.
+        See and enjoy
     </div>
 
-    <div class="contentimage">
-      <img src="https://himasif.in/10e">
-      <div class="contenttitle1">
-        <h4>Sakura Garden</h4>
-        <div class="contentfill">
-          adalah sebuah taman yang besar di area Shinjuku dan Shibuya, Tokyo, Jepang. 
-          Pada awalnya, taman ini merupakan kediaman keluarga Naitō di zaman Edo.
-          Setelah itu, Badan Rumah Tangga Kekaisaran Jepang mengelolanya menjadi sebuah taman.
-          Sekarang, taman ini telah menjadi taman nasional di bawah yuridiksi Kementerian Lingkungan Hidup Jepang.
+    <div class="content-grid">
+        <div class="content1">
+          <img src="https://himasif.in/10e">
         </div>
-      </div>
-    </div>
-
-    <div class="contentimage">
-      <img src="https://himasif.in/10f">
-      <div class="contenttitle2">
-        <h4>Tokyo Big Sight</h4>
-        <div class="contentfill">
-          yang secara resmi dikenal sebagai Pusat Pameran Internasional Tokyo (東京 国際 展示 場 Tōkyō kokusai tenjijō),
-          adalah pusat konvensi dan pameran di Tokyo, Jepang, 
-          dan yang terbesar di negara ini. Dibuka pada bulan April 1996, 
-          pusat ini terletak di distrik Ariake Minami di Tokyo Waterfront City (臨海 副 都 心 Rinkai fukutoshin) di tepi perairan Teluk Tokyo. 
-          Fitur yang paling ikonik adalah Menara Konferensi yang secara visual berbeda. 
-          Nama Tokyo Big Sight dalam bahasa Jepang akhirnya menjadi nama resmi,
-          dan itu juga telah menjadi nama operator sejak April 2003.
+        <div class="content2">
+          <h4>Sakura Garden</h4>
+          <p> Shinjuku Gyo-en (新宿御苑) is a large park and garden in Shinjuku and Shibuya,
+          Tokyo, Japan. It was originally a residence of the
+          Naitō family in the Edo period. Afterwards, it became
+          a garden under the management of the Imperial Household Agency of Japan.
+          It is now a national park under the jurisdiction of the Ministry of the Environment.  </p>
         </div>
-      </div>
-    </div>
-
-    <div class="contentimage">
-      <img src="https://himasif.in/10g">
-      <div class="contenttitle3">
-        <h4>Tokyo Akihabara</h4>
-        <div class="contentfill">
-          Akihabara (秋葉原) atau Pusat Elektronik Akihabara (秋葉原電気街 Akihabara Denki Gai) 
-          adalah kawasan perbelanjaan yang terletak di sekitar Stasiun Akihabara, Tokyo, Jepang. 
-          Dengan kereta api, dari Stasiun Tokyo ke Akihabara memakan waktu kurang dari lima menit.
-          Pusat Elektronik Akihabara tepatnya berlokasi di kawasan Akihabara, 
-          distrik kota Taitō dan kawasan Soto-kanda di distrik kota Chiyoda. 
-          Akihabara sering disingkat sebagai Akiba (アキバ)
-          Akihabara merupakan pusat perbelanjaan untuk barang elektronik, 
-          suku cadang elektronik, anime, manga, dan doujinshi. 
-          Kawasan ini merupakan surga otaku di bidang anime, manga, dan permainan video. 
-          Di tempat ini terdapat banyak maid cafe. Di sini juga terdapat theater AKB48.
+        <div class="content3">
+          <img src="https://himasif.in/10f">
         </div>
-      </div>
+        <div class="content4">
+          <h4>Tokyo Big Sight</h4>
+           <p>Tokyo Big Sight (東京ビッグサイト Tōkyō biggu saito), officially known as
+           Tokyo International Exhibition Center (東京国際展示場 Tōkyō kokusai tenjijō),
+           is a convention and exhibition center in Tokyo, Japan,
+           and the largest one in the country. Opened in April 1996,
+           the center is located in the Ariake Minami district of
+           Tokyo Waterfront City (臨海副都心 Rinkai fukutoshin)
+           on the Tokyo Bay waterfront. Its most iconic feature is
+           the visually distinctive Conference Tower.
+           The name Tokyo Big Sight in Japanese eventually becomes the official name,
+           and it also has become the name of the operator since April 2003. </p>
     </div>
-
-    <div class="contentimage">
-      <img src="https://himasif.in/10h">
-      <div class="contenttitle4">
-        <h4>Tokyo Tower</h4>
-        <div class="contentfill">
-          Menara Tokyo (東京タワー Tokyo Tower) adalah sebuah menara di Taman Shiba, Tokyo, Jepang. 
-          Tinggi keseluruhan 332,6 m dan merupakan bangunan menara baja tertinggi di dunia yang tegak sendiri di permukaan tanah.
-          Berdasarkan peraturan keselamatan penerbangan, 
-          menara ini dicat dengan warna oranye internasional dengan warna putih di beberapa tempat. 
-          Bangunan sekelilingnya lebih rendah, sehingga Menara Tokyo bisa dilihat dari berbagai lokasi di pusat kota.
+        <div class="content5">
+          <img src="https://himasif.in/10g">
         </div>
-      </div>
+        <div class="content6">
+          <h4>Tokyo Akihabara</h4>
+           <p>Akihabara is a buzzing shopping hub famed for its electronics retailers,
+           ranging from tiny stalls to vast department stores like Yodobashi Multimedia Akiba.
+           Venues specializing in manga, anime, and video games include Tokyo Anime Center,
+           for exhibits and souvenirs, and Radio Kaikan with 10 floors of toys,
+           trading cards, and collectibles. Staff dressed as maids or butlers
+           serve tea and desserts at nearby maid cafes.</p>
+        </div>
+        <div class="content7">
+          <img src="https://himasif.in/10h">
+        </div>
+        <div class="content8">
+          <h4>Tokyo Tower</h4>
+           <p>Tokyo Tower (東京タワー Tōkyō tawā, officially called 日本電波塔 Nippon denpatō
+           "Japan Radio Tower") is a communications and observation tower in the Shiba-koen
+           district of Minato, Tokyo, Japan. At 332.9 metres (1,092 ft),
+           it is the second-tallest structure in Japan.
+           The structure is an Eiffel Tower-inspired lattice tower that is
+           painted white and international orange to comply with air safety regulations.</p>
+        </div>
     </div>
-
-
 
   </body>
 
