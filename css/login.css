@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://himasif.in/15b");
+}
+input[type=text], select,[type=email],[type=password],[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    color: aliceblue;
+}
+
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+input[type=submit]:hover {
+    background-color: skyblue;
+}
+.button:hover{
+    background-color: skyblue;
+}
+.button{
+    background-color: #333;
+    padding: 12px 20px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+.button2{
+    padding: 0% 0% 2% 0%;
+}
+.container-signup{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.container-login{
+    margin-top: 14%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.container-text a{
+  font-size: 15px;
+  text-decoration: none;
+  color: yellow;
+  text-align: center;
+}
+#noLink {
+  padding-left: 33%;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h3 {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: aliceblue;
+}
+.select{
+  padding-bottom: 10px;
+}
+.holder{
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .container-login{
+        margin-top: 45%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+    }
+    .container-signup{
+      margin-top: 20%;
+      margin-left: 5%;
+      margin-right: 5%;
+      border-radius: 5px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+  }
+    .button{
+        background-color: #333;
+        padding: 12px 20px ;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+    }
+    .holder{
+        padding-bottom: 5px;
+    }
+    .container-text a{
+      font-size: 15px;
+      text-decoration: none;
+      color: yellow;
+      text-align: center;
+    }
+    #noLink {
+      padding-left: 28%;
+      font-size: 15px;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+      font-family: 'Lucida Sans';
+      color: aliceblue;
+    }
