@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script type="text/javascript" src="js/jsnya.js"></script>
+</head>
+<body>
+    <div class="container-signup">
+        <h3>SIGN UP FOR JOIN VISIT TOKYO</h3>
+        <form onsubmit="return validasi()" action="index.html">
+            <div class="label">
+                <label>Name </label>
+            </div>
+            <div class="holder1">
+                <input type="text" id="name" placeholder="Your Name"></input>
+            </div>
+            <div class="label">
+                <label>Email </label>
+            </div>
+            <div class="holder1">
+                <input type="email" id="email" placeholder="Your Email"></input>
+            </div>
+            <div class="label">
+                <label>Password </label>
+            </div>
+            <div class="holder1">
+                <input type="password" id="pass" placeholder="Your Password"></input>
+            </div>
+            <div class="label">
+                <label>Birth Date </label>
+            </div>
+            <div class="date">
+                <input type="date" id="date"></input>
+            </div>
+            <div class="label">
+                <label>Religion</label>
+            </div>
+            <div class="select">
+                <select name="Religion" id="select">
+                    <option disabled>---CHOOSHE RELIGION---</option>
+                    <option value="Islam">Moslem</option>
+                    <option value="Kristen">Cristian</option>
+                    <option value="Hindu">Hindoo</option>
+                    <option value="konghucu">Confucius</option>
+                    <option value="konghucu">Atheist</option>
+                </select>
+            </div>
+            <div class="submit">
+                <input type="submit" value="SIGN UP">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
