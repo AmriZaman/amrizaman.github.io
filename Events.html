@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="awok.css"
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jsnya.js"></script>
     <meta charset="utf-8">
     <title>Events</title>
   </head>
   <body>
-    <div class="topnav">
-        <a href="index.html">Visit Tokyo</a>
-        <a href="index.html">Home</a>
-        <a href="placetovisit.html">Place</a>
-        <a href="foods.html">Food</a>
-        <a href="Transportation.html">Transportation</a>
-        <a href="Events.html">Events</a>
-    </div>
+    <nav>
+      <a href="index.html" class="title">Visit Tokyo</a>
+      <a href="index.html" class="title" id="login">Login</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="placetovisit.html">Place to Visit</a></li>
+        <li><a href="foods.html">Food</a></li>
+        <li><a href="Transportation.html">Transportation</a></li>
+        <li><a href="Events.html" id="active">Events</a></li>
+      </ul>
+      <a href="javascript:void(0);" onclick="navigasi()"><div class="burger-menu"></div></a>
+    </nav>
     <div class="headerimage">
       <img src="https://himasif.in/14g"/>
       <div class="heading1">
@@ -21,83 +26,65 @@
       </div>
     </div>
     <div class="Abstrak1">
-      DATANG DAN RASAKAN PENGALAMAN YANG TAK TERLUPAKAN
+      COME AND FEEL AN UNFORGETTABLE EXPERIENCE
     </div>
     <div class="Abstrak2">
-      Tokyo merupakan salah satu kota dari Negara Jepang
-      banyak budaya dan event yang digelar
-      jika Anda berkunjung ke Tokyo, anda harus melihatnya 
-      dan nikmatilah
+      Tokyo is one of the cities of Japan
+      many cultures and events are held
+      if you visit Tokyo, you should see it
+      and enjoy
     </div>
 
-    <div class="contentimage">
-      <img src="https://himasif.in/vn">
-      <div class="contenttitle1">
+    <div class="content-grid">
+      <div class="content1">
+        <img src="https://himasif.in/vn">
+      </div>
+      <div class="content2">
         <h4>Chichibu Night Festival</h4>
-        <div class="contentfill">
-            Festival Malam Chichibu (秩 父 夜 祭, Chichibu Yomatsuri) adalah 
-            festival Kuil Chichibu di Chichibu, hanya 90 menit dari pusat Tokyo. 
-            Festival ini diadakan setiap tahun pada 2 dan 3 Desember, 
-            dengan aksi utama berlangsung pada 3 Desember. 
-            Chichibu Night Festival dianggap sebagai salah satu dari tiga festival top Jepang
-            untuk menampilkan kendaraan hias, yang lainnya adalah 
-            Gion Matsuri di Kyoto dan Takayama Matsuri. Kendaraan hiasnya dihiasi dengan lentera, 
-            permadani dan ukiran kayu berlapis emas dan disertai dengan musik genderang dan seruling.
-        </div>
+        <p> The Chichibu Night Festival (秩父夜祭, Chichibu Yomatsuri) is
+          the festival of Chichibu Shrine in Chichibu, just 90 minutes from central Tokyo.
+          It is held every year on December 2 and 3, with the main action
+          taking place on December 3. The Chichibu Night Festival is considered one
+          of Japan's top three festivals to feature floats,
+          the others being Kyoto's Gion Matsuri and the Takayama Matsuri.
+          Its floats are ornately decorated with lanterns, tapestries and
+          gilded wood carvings and are accompanied by drum and flute music.  </p>
       </div>
-    </div>
-
-    <div class="contentimage">
-      <img src="https://himasif.in/14h">
-      <div class="contenttitle2">
+      <div class="content3">
+        <img src="https://himasif.in/14h">
+      </div>
+      <div class="content4">
         <h4>Hanami</h4>
-        <div class="contentfill">
-            Hanami (花見, melihat bunga) atau ohanami adalah tradisi Jepang dalam menikmati keindahan bunga, 
-            khususnya bunga sakura. Mekarnya bunga sakura merupakan 
-            lambang kebahagiaan telah tibanya musim semi. 
-            Selain itu, hanami juga berarti piknik dengan menggelar tikar untuk pesta 
-            makan-makan di bawah pohon sakura.
-        </div>
+         <p> Hanami (花見, "flower viewing") is the Japanese traditional
+          custom of enjoying the transient beauty of flowers; flowers ("hana")
+          are in this case almost always referring to those of the cherry
+          ("sakura") or, less frequently, plum ("ume") trees. </p>
       </div>
-    </div>
-
-    <div class="contentimage">
-      <img src="https://himasif.in/vm">
-      <div class="contenttitle3">
+      <div class="content5">
+        <img src="https://himasif.in/vm">
+      </div>
+      <div class="content6">
         <h4>Tokyo Yosakoi</h4>
-        <div class="contentfill">
-            Festival Yosakoi (よさこい祭り Yosakoi Matsuri) adalah festival tari Yosakoi yang 
-            diadakan setiap tahunnya di kota Kochi, Prefektur Kochi pada 9 Agustus hingga 12 Agustus. 
-            Festival berlangsung selama 4 hari, dengan puncak pentas utama pada 10 Agustus dan 11 Agustus. 
-            Malam sebelum pentas utama (9 Agustus) dimeriahkan oleh pesta kembang api, 
-            dan 12 Agustus adalah hari kompetisi nasional.
-            Yosakoi adalah tari dengan ciri khas gerakan tangan dan kaki yang dinamis. 
-            Tari ini berkembang sebagai bentuk modern tari musim panas Awa Odori. 
-            Sambil menari, di kedua belah tangan, 
-            penari pria dan wanita segala umur membunyikan perkusi dari kayu yang disebut naruko. 
-            Mulanya, naruko dipakai untuk mengusir burung-burung di sawah, 
-            tetapi sekarang menjadi pelengkap tari.
-        </div>
+         <p>Yosakoi Festival (よ さ こ い 祭 り Yosakoi Matsuri) is a Yosakoi dance
+          festival that is held annually in the city of Kochi,
+          Kochi Prefecture on August 9 to August 12. The festival lasts for 4 days,
+          with the main performances on August 10 and August 11.
+          The night before the main stage (9 August) was enlivened by a fireworks party,
+          and 12 August was the day of the national competition.</p>
       </div>
-    </div>
-
-    <div class="contentimage">
-      <img src="https://himasif.in/10i">
-      <div class="contenttitle4">
+      <div class="content7">
+        <img src="https://himasif.in/10i">
+      </div>
+      <div class="content8">
         <h4>Sumida Glass Fair</h4>
-        <div class="contentfill">
-            Sumida Ward (墨 田 区, sumida-ku) terletak di sebelah timur pusat kota Tokyo. 
-            Ini adalah rumah bagi area pengamatan bunga sakura yang terkenal 
-            (di sepanjang Sungai Sumida dekat Stasiun Asakusa) di musim semi, 
-            Festival Kembang Api Sungai Sumida (Hanabi Matsuri) di musim panas, 
-            dan stadion sumo utama Tokyo (Ryogoku Kokugikan) 
-            di mana turnamen diadakan tiga kali dalam tahun.
-        </div>
+         <p> Sumida Ward (墨田区, sumida-ku) lies east of central Tokyo.
+          It is home to a famous cherry blossom viewing area
+          (along the Sumida River near Asakusa Station) in spring,
+          the Sumida River Fireworks Festival (Hanabi Matsuri) in summer,
+          and Tokyo's main sumo stadium (Ryogoku Kokugikan) where
+          tournaments are held three times a year. </p>
       </div>
     </div>
-
-
-
   </body>
 
 </html>
