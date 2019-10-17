@@ -38,3 +38,16 @@ var aktif = false;
           true;
       }
   }
+  function validasipost(){
+      var uploadFile = document.getElementById("filee");
+      var text = document.getElementById("create-title");
+      var textarea    = document.getElementById("create-content");
+
+      if(uploadFile.value==""||text.value==""||textarea.value==""){
+          alert("PLEASE FILL OUT THE FIELD CORRRECTLY!");
+          return false;
+      }
+      else{
+          true;
+      }
+  }
