@@ -243,6 +243,77 @@ nav li:hover{
   text-align: justify;
   line-height: 30px;
   }
+  .create-post{
+      border-radius: 5px;
+      background-color: #333;
+      padding: 20px;
+      padding-bottom: 50px;
+      margin-top: 105px;
+  }
+  .create-post p{
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      margin-left: 10%;
+  }
+  .button{
+      background-color: #B280D9;
+      padding: 12px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+  }
+  .image-up input{
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px 20px;
+    margin-bottom: 9px;
+    margin-left: 9%;
+  }
+  #create-title{
+    width: 82%;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #create-content{
+    width: 82%;
+    padding: 12px 20px;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 200px;
+  }
+  input[type=submit] {
+      background-color: #B280D9;
+      color: white;
+      padding: 12px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      margin-right: 9%;
+    }
+  input[type=submit]:hover {
+      background-color: white;
+      color: black;
+  }
+  .create-post h3 {
+      text-align: center;
+      font-family: 'Lucida Sans';
+      color: aliceblue;
+  }
+
 }
 
 @media screen and (max-width : 600px){
@@ -375,5 +446,75 @@ nav li:hover{
   max-width: 100%;
   text-align: justify;
   line-height: 30px;
+  }
+  .create-post{
+      border-radius: 5px;
+      background-color: #333;
+      padding: 20px;
+      padding-bottom: 50px;
+      margin-top: 10px;
+  }
+  .create-post p{
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      margin-left: 5%;
+  }
+  .button{
+      background-color: #B280D9;
+      padding: 12px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      text-align: center;
+  }
+  .image-up input{
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px 20px;
+    margin-bottom: 9px;
+    margin-left: 4%;
+  }
+  #create-title{
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #create-content{
+    width: 92%;
+    padding: 12px 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 200px;
+  }
+  input[type=submit] {
+      background-color: #B280D9;
+      color: white;
+      padding: 12px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      margin-right: 4%;
+    }
+  input[type=submit]:hover {
+      background-color: white;
+      color: black;
+  }
+  .create-post h3 {
+      text-align: center;
+      font-family: 'Lucida Sans';
+      color: aliceblue;
   }
 }
