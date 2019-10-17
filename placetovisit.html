@@ -9,7 +9,7 @@
   <body>
     <nav>
       <a href="index.html" class="title">Visit Tokyo</a>
-      <a href="index.html" class="title" id="login">Login</a>
+      <a href="login.html" class="title" id="login">Login</a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="placetovisit.html" id="active">Place to Visit</a></li>
@@ -61,7 +61,7 @@
            the visually distinctive Conference Tower.
            The name Tokyo Big Sight in Japanese eventually becomes the official name,
            and it also has become the name of the operator since April 2003. </p>
-    </div>
+        </div>
         <div class="content5">
           <img src="https://himasif.in/10g">
         </div>
@@ -87,7 +87,20 @@
            painted white and international orange to comply with air safety regulations.</p>
         </div>
     </div>
-
+    <div class="create-post">
+      <h3>Create New Post</h3>
+      <form onsubmit="return validasipost()" action="#">
+        <div class="image-up">
+          <p>Upload an Image</p>
+          <input type="file" id="filee" value="uploadFile" >
+        </div>
+        <input type="text" id="create-title" placeholder="Title"></input>
+        <textarea id="create-content" placeholder="Type the content here"></textarea>
+        <div class="submit">
+            <input type="submit" value="Post">
+        </div>
+      </form>
+    </div>
   </body>
 
 </html>
