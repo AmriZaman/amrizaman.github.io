@@ -9,7 +9,7 @@
   <body>
     <nav>
       <a href="index.html" class="title">Visit Tokyo</a>
-      <a href="index.html" class="title" id="login">Login</a>
+      <a href="login.html" class="title" id="login">Login</a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="placetovisit.html">Place to Visit</a></li>
@@ -88,6 +88,20 @@
           where you can freely use bicycles that are placed at certain
           points (bicycle parking) in the city.</p>
       </div>
+    </div>
+    <div class="create-post">
+      <h3>Create New Post</h3>
+      <form onsubmit="return validasipost()" action="#">
+        <div class="image-up">
+          <p>Upload an Image</p>
+          <input type="file" id="filee" value="uploadFile" >
+        </div>
+        <input type="text" id="create-title" placeholder="Title"></input>
+        <textarea id="create-content" placeholder="Type the content here"></textarea>
+        <div class="submit">
+            <input type="submit" value="Post">
+        </div>
+      </form>
     </div>
   </body>
 </html>
