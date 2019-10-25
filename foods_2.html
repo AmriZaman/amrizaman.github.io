@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jsnya.js"></script>
+    <meta charset="utf-8">
+    <title>Food</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index_2.html" class="title">Visit Tokyo</a>
+      <a href="index.html" class="title" id="login">Logout</a>
+      <ul>
+        <li><a href="index_2.html">Home</a></li>
+        <li><a href="placetovisit_2.html">Place to Visit</a></li>
+        <li><a href="foods_2.html" id="active">Food</a></li>
+        <li><a href="Transportation_2.html">Transportation</a></li>
+        <li><a href="Events_2.html">Events</a></li>
+      </ul>
+      <a href="javascript:void(0);" onclick="navigasi()"><div class="burger-menu"></div></a>
+    </nav>
+    <div class="headerimage">
+      <img src="https://himasif.in/146"/>
+      <div class="heading1">
+        <h1>FOOD AND DRINKS</h1>
+      </div>
+    </div>
+    <div class="Abstrak1">
+      TRY IT ALL AND ENJOY THE FEELING OF IT
+    </div>
+    <div class="Abstrak2">
+      There are so many typical foods of this city.
+      If you visit Tokyo, you should try and taste this food.
+      See and enjoy
+    </div>
+
+    <div class="content-grid">
+      <div class="content1">
+        <img src="https://himasif.in/147">
+      </div>
+      <div class="content2">
+        <h4>Sushi</h4>
+        <p> Sushi (すし, 寿司, 鮨, pronounced [sɯ̥ɕiꜜ] or [sɯ̥ꜜɕi]) is
+          a Japanese dish of prepared vinegared rice (鮨飯 sushi-meshi),
+          usually with some sugar and salt, accompanying a variety of ingredients
+          (ネタ neta), such as seafood, vegetables, and occasionally tropical fruits.
+          Styles of sushi and its presentation vary widely,
+          but the one key ingredient is "sushi rice", also
+          referred to as shari (しゃり), or sumeshi (酢飯).  </p>
+      </div>
+      <div class="content3">
+        <img src="https://himasif.in/148">
+      </div>
+      <div class="content4">
+        <h4>Okonamiyaki</h4>
+         <p>Okonomiyaki (お好み焼き o-konomi-yaki) is a Japanese savory pancake
+          containing a variety of ingredients in a wheat-flour-based batter;
+          it is an example of Konamon (flour-based Japanese cuisine).
+          The name is derived from the word okonomi,
+          meaning "how you like" or "what you like", and yaki meaning
+          "cooked" (usually fried). Okonomiyaki is mainly associated
+          with the Kansai or Hiroshima areas of Japan, but is widely
+          available throughout the country. Toppings and batters tend to
+          vary according to region. In Tokyo, there is a semi-liquid okonomiyaki called monjayaki. </p>
+      </div>
+      <div class="content5">
+        <img src="https://himasif.in/149">
+      </div>
+      <div class="content6">
+        <h4>Katsu Curry</h4>
+         <p>Japanese curry (カレー karē) is one of the most popular dishes in Japan.
+          It is commonly served in three main forms: curry rice (カレーライス karē raisu,
+          curry over rice), curry udon (curry over noodles), and curry bread
+          (a curry-filled pastry). The very common "curry rice" is most commonly
+          referred to simply as "curry" (カレー karē).</p>
+      </div>
+      <div class="content7">
+        <img src="https://himasif.in/14a">
+      </div>
+      <div class="content8">
+        <h4>Ramen</h4>
+         <p>Ramen (拉麺, ラーメン rāmen,) is a Japanese dish with a translation of "pulled noodles".
+          It consists of Chinese wheat noodles served in a meat or (occasionally) fish-based broth,
+          often flavored with soy sauce or miso, and uses toppings such as
+          sliced pork (叉焼 chāshū), nori (dried seaweed), menma, and scallions.
+          Nearly every region in Japan has its own variation of ramen,
+          such as the tonkotsu (pork bone broth) ramen of Kyushu and the miso ramen of Hokkaido.</p>
+      </div>
+    </div>
+    <div class="create-post">
+      <h3>Create New Post</h3>
+      <form onsubmit="return validasipost()" action="#">
+        <div class="image-up">
+          <p>Upload an Image</p>
+          <input type="file" id="filee" value="uploadFile" >
+        </div>
+        <input type="text" id="create-title" placeholder="Title"></input>
+        <textarea id="create-content" placeholder="Type the content here"></textarea>
+        <div class="submit">
+            <input type="submit" value="Post">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

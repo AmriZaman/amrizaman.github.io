@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jsnya.js"></script>
+    <meta charset="utf-8">
+    <title>Place To Visit</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index_2.html" class="title">Visit Tokyo</a>
+      <a href="index.html" class="title" id="login">Logout</a>
+      <ul>
+        <li><a href="index_2.html">Home</a></li>
+        <li><a href="placetovisit_2.html" id="active">Place to Visit</a></li>
+        <li><a href="foods_2.html">Food</a></li>
+        <li><a href="Transportation_2.html">Transportation</a></li>
+        <li><a href="Events_2.html">Events</a></li>
+      </ul>
+      <a href="javascript:void(0);" onclick="navigasi()"><div class="burger-menu"></div></a>
+    </nav>
+    <div class="headerimage">
+      <img src="https://himasif.in/10d"/>
+      <div class="heading1">
+        <h1>PLACES TO VISIT</h1>
+      </div>
+    </div>
+    <div class="Abstrak1">
+        COME AND ENJOY EVERYTHING
+    </div>
+    <div class="Abstrak2">
+        There are lots of interesting places in Tokyo.
+        If you visit Tokyo, you should come and visit these places.
+        See and enjoy
+    </div>
+
+    <div class="content-grid">
+        <div class="content1">
+          <img src="https://himasif.in/10e">
+        </div>
+        <div class="content2">
+          <h4>Sakura Garden</h4>
+          <p> Shinjuku Gyo-en (新宿御苑) is a large park and garden in Shinjuku and Shibuya,
+          Tokyo, Japan. It was originally a residence of the
+          Naitō family in the Edo period. Afterwards, it became
+          a garden under the management of the Imperial Household Agency of Japan.
+          It is now a national park under the jurisdiction of the Ministry of the Environment.  </p>
+        </div>
+        <div class="content3">
+          <img src="https://himasif.in/10f">
+        </div>
+        <div class="content4">
+          <h4>Tokyo Big Sight</h4>
+           <p>Tokyo Big Sight (東京ビッグサイト Tōkyō biggu saito), officially known as
+           Tokyo International Exhibition Center (東京国際展示場 Tōkyō kokusai tenjijō),
+           is a convention and exhibition center in Tokyo, Japan,
+           and the largest one in the country. Opened in April 1996,
+           the center is located in the Ariake Minami district of
+           Tokyo Waterfront City (臨海副都心 Rinkai fukutoshin)
+           on the Tokyo Bay waterfront. Its most iconic feature is
+           the visually distinctive Conference Tower.
+           The name Tokyo Big Sight in Japanese eventually becomes the official name,
+           and it also has become the name of the operator since April 2003. </p>
+        </div>
+        <div class="content5">
+          <img src="https://himasif.in/10g">
+        </div>
+        <div class="content6">
+          <h4>Tokyo Akihabara</h4>
+           <p>Akihabara is a buzzing shopping hub famed for its electronics retailers,
+           ranging from tiny stalls to vast department stores like Yodobashi Multimedia Akiba.
+           Venues specializing in manga, anime, and video games include Tokyo Anime Center,
+           for exhibits and souvenirs, and Radio Kaikan with 10 floors of toys,
+           trading cards, and collectibles. Staff dressed as maids or butlers
+           serve tea and desserts at nearby maid cafes.</p>
+        </div>
+        <div class="content7">
+          <img src="https://himasif.in/10h">
+        </div>
+        <div class="content8">
+          <h4>Tokyo Tower</h4>
+           <p>Tokyo Tower (東京タワー Tōkyō tawā, officially called 日本電波塔 Nippon denpatō
+           "Japan Radio Tower") is a communications and observation tower in the Shiba-koen
+           district of Minato, Tokyo, Japan. At 332.9 metres (1,092 ft),
+           it is the second-tallest structure in Japan.
+           The structure is an Eiffel Tower-inspired lattice tower that is
+           painted white and international orange to comply with air safety regulations.</p>
+        </div>
+    </div>
+    <div class="create-post">
+      <h3>Create New Post</h3>
+      <form onsubmit="return validasipost()" action="#">
+        <div class="image-up">
+          <p>Upload an Image</p>
+          <input type="file" id="filee" value="uploadFile" >
+        </div>
+        <input type="text" id="create-title" placeholder="Title"></input>
+        <textarea id="create-content" placeholder="Type the content here"></textarea>
+        <div class="submit">
+            <input type="submit" value="Post">
+        </div>
+      </form>
+    </div>
+  </body>
+
+</html>
