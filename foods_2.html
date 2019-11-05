@@ -87,19 +87,19 @@
           such as the tonkotsu (pork bone broth) ramen of Kyushu and the miso ramen of Hokkaido.</p>
       </div>
     </div>
-    <div class="create-post">
-      <h3>Create New Post</h3>
-      <form onsubmit="return validasipost()" action="#">
-        <div class="image-up">
-          <p>Upload an Image</p>
-          <input type="file" id="filee" value="uploadFile" >
+<div class="create-post">
+          <h3>Create New Post</h3>
+          <form onsubmit="return validasipost()" action="#">
+            <div class="image-up">
+              <input type="file" accept="image/*"  onchange="tampilkanPreview(this,'preview')" />
+            </div>
+            <img id="preview" src="" alt="" width="320px" placeholder="Preview"/>
+            <input type="text" id="create-title" placeholder="Title"></input>
+            <textarea id="create-content" placeholder="Type the content here"></textarea>
+            <div class="submit">
+                <input type="submit" value="Post">
+            </div>
+          </form>
         </div>
-        <input type="text" id="create-title" placeholder="Title"></input>
-        <textarea id="create-content" placeholder="Type the content here"></textarea>
-        <div class="submit">
-            <input type="submit" value="Post">
-        </div>
-      </form>
-    </div>
   </body>
 </html>
