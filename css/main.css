@@ -182,7 +182,7 @@ nav li:hover{
  }
  .event-grid{
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: auto auto auto auto;
    max-height: 500px;
    grid-gap: 1%;
    padding: 1% 10% 1% 10%;
@@ -249,6 +249,7 @@ nav li:hover{
       padding: 20px;
       padding-bottom: 50px;
       margin-top: 105px;
+      height: 400px;
   }
   .create-post p{
       color: white;
@@ -267,13 +268,16 @@ nav li:hover{
   }
   .image-up input{
     border-radius: 5px;
+    width: 300px;
     background-color: white;
     padding: 12px 20px;
     margin-bottom: 9px;
     margin-left: 9%;
+    border: 1px solid blue;
   }
   #create-title{
-    width: 82%;
+    width: 57%;
+    margin-top: -330px;
     margin-left: 9%;
     margin-right: 9%;
     padding: 12px 20px;
@@ -281,18 +285,20 @@ nav li:hover{
     border: 1px solid blue;
     border-radius: 4px;
     box-sizing: border-box;
+    float: right;
   }
   #create-content{
-    width: 82%;
+    width: 57%;
     padding: 12px 20px;
     margin-left: 9%;
     margin-right: 9%;
-    margin-top: 10px;
+    margin-top: -275px;
     display: inline-block;
     border: 1px solid blue;
     border-radius: 4px;
     box-sizing: border-box;
-    height: 200px;
+    height: 265px;
+    float: right;
   }
   input[type=submit] {
       background-color: #B280D9;
@@ -313,7 +319,18 @@ nav li:hover{
       font-family: 'Lucida Sans';
       color: aliceblue;
   }
-
+  #preview{
+    object-fit: cover;
+    border: 1px solid blue;
+    width: 300px;
+    height: 240px;
+    float: left;
+    border-radius: 5px;
+    background-color: white;
+    padding: 12px 20px;
+    margin-bottom: 9px;
+    margin-left: 9%;
+  }
 }
 
 @media screen and (max-width : 600px){
